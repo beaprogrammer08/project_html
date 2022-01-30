@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+</head>
+<body>
+    <h1>JAVA SCRIPT</h1>
+    <p id="red">java script can change html content </p>
+    <button type="button" onclick='document.getElementById("red").innerHTML="JAVA SCRIPT"'>click here!</button>
+    <p id="css">java script can change the style of an html element </p>
+    <button type="button" onclick='document.getElementById("css").style.fontSize="35px"'>click here!</button><br>
+    <p id="green">java script can hide html elements </p>
+    <button type="button" onclick='document.getElementById("green").style.display="none"'>click here!</button><br>
+    <p id="blue" style="display: none;">java script can show hidden html element </p>
+    <button type="button" onclick='document.getElementById("blue").style.display="block"'>click here!</button><br>
+    <p id="black">java script can change the style of an html element </p>
+    <button type="button" onclick="myFunction()">click here!</button>
+    <script>
+        function myFunction(){
+        document.getElementById("black").style.fontSize="35px"
+        document.getElementById("black").innerHTML="JAVA SCRIPT"
+        document.getElementById("black").style.color="red"
+        document.getElementById("black").style.backgroundColor="green"
+        document.getElementById("black").style.display="inline-block"
+        document.getElementById("black").style.border="5px"
+        }
+    </script>
+</body>
+</html>

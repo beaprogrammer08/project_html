@@ -1,0 +1,27 @@
+#id{
+    background-color: burlywood;
+    color: coral;
+    font-family:cursive;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: cornsilk 10px solid;
+    border-radius: 10px;
+    width: 100px;
+    margin:0px;
+    padding: 10px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+#id1{
+    background-color:crimson;
+    color:cyan;
+    font-family:monospace;
+    font-size:10px;
+    text-transform:lowercase;
+    border: cornsilk 10px solid;
+    border-radius:10px;
+    text-shadow: blanchedalmond;
+    width: 100px;
+    margin:0px;
+    display: inline-block;
+}

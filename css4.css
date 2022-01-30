@@ -1,0 +1,13 @@
+.button{
+    display: inline-block;
+    font-size: 10px;
+    font-family: "cursive";
+    cursor:pointer;
+    text-decoration:none;
+    color: blueviolet;
+    background: transparent;
+    color:red;
+    position: relative;
+    margin: 0px;
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structure</title>
+    <style>
+        body{
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+        }
+        .dark-mode{
+            background-image: url("istockphoto-1294603953-612x612.jpg");
+            color: white; }
+
+            .light-mode{
+            background-color: white;
+            color: black;
+        }
+            </style>
+</head>
+<body>
+    <button onclick="darkMode()"><img src="D:\MOON.jpg" height="30" width="30"></button>
+    <button onclick="lightMode()"><img src="D:\SUN.jpg" height="30" width="30"></button>
+    <script>
+    function darkMode() {
+    var element = document.body;
+    var content=document.getElementById("DarkModetext");
+    element.className = "dark-mode";
+    content.innerText = "Dark Mode is ON";
+                    }
+     function lightMode() {
+                        var element = document.body;
+                        var content = document.getElementById("DarkModetext");
+                        element.className = "light-mode";
+                        content.innerText = "Dark Mode is OFF";
+                    }
+                </script>
+                
+    <br><br><br><br><br><br><br>
+    
+    <marquee  direction="right" behavior="alternate">
+    <button><img src="D:\movie icon1.png" height="200" width="200"></button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <button><img src="D:\web series icon.png" height="200" width="200"></button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <button><img src="D:\music icon.png" height="200" width="200"> </button>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <button> <img src="D:\serial icon.jpeg" height="200" width="200"></button>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </marquee>
+</body>
+</html>

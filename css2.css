@@ -1,0 +1,22 @@
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    width: 3000px;
+    height: 3000px;
+    border: burlywood solid 30px;
+    border-radius: 25px;
+    
+
+}
+.d1{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 43, 73);
+    width: 10;
+    height: 10;
+    border: rgb(30, 124, 30) solid 30px;
+    border-radius: 25px;
+    box-sizing: border-box;  
+
+}
